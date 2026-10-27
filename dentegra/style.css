@@ -1,0 +1,167 @@
+@font-face {
+    font-family: 'regdisplay';
+    src: url('DentDispRegularTrial.otf');
+}
+@font-face {
+    font-family: 'regtext';
+    src: url('DentTextRegularTrial.otf');
+}
+@font-face {
+    font-family: 'regcaption';
+    src: url('DentCaptRegularTrial.otf');
+}
+body {
+    margin: 0;
+    padding: 0;
+    background: #F8E9CC;
+    font-family: 'regtext', sans-serif;
+    overflow-x: hidden; 
+}
+.karkas {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    box-sizing: border-box;
+}
+.full-width-img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.section-logo {
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+.section-intro {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    margin-bottom: 20px;
+    gap: 5%
+}
+.bolshoikamen {
+    background-image: url('bolshoikamen.svg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 55%;
+    aspect-ratio: 540 / 580;
+    box-sizing: border-box;
+    padding: 80px 60px 60px 60px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.bolshoikamen p {
+    margin: 0;
+    font-size: 22px;
+    line-height: 1.4;
+    color: #4a1e1b;
+    text-align: left;
+}
+.kamni-b {
+    width: 40%;
+    display: grid;
+    grid-template-rows: repeat(3, auto);
+    grid-template-columns: 1fr;
+    row-gap: 15px;
+}
+.grid-item img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.item-d { width: 75%; justify-self: end; }
+.item-q { width: 85%; justify-self: center; margin-top: -10px; }
+.item-a { width: 75%; justify-self: start; margin-top: -10px; }
+.section-mosaic {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 140px;
+    gap: 4%
+}
+
+.mosaic-left {
+    width: 72%;
+}
+.mosaic-left img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.mosaic-right {
+    width: 24%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: #4a1e1b;
+    font-size: 20px;
+    line-height: 1.4;
+    text-align: left;
+}
+.section-vazy {
+    width: 100%;
+    margin-bottom: 120px;
+}
+.section-shrifty {
+    width: 100%;
+    margin-bottom: 120px;
+}
+
+.section-glyphs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 120px;
+    gap:4%
+}
+
+.glyphs-left {
+    width: 26%;
+    text-align: left;
+    color: #4a1e1b;
+}
+
+.glyphs-right {
+    width: 70%;
+    text-align: left;
+    color: #4a1e1b;
+}
+.glyphs-right img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.glyphs-title {
+    font-family: 'regdisplay', serif;
+    font-size: 45px;
+    margin: 0 0 20px 0;
+}
+
+.glyphs-right p {
+    font-size: 20px;
+    line-height: 1.4;
+    margin: 0;
+}
+.section-dino {
+    width: 100%;
+    margin-bottom: 120px;
+}
+
+.section-bottom-stones {
+    width: 100%;
+    margin-bottom: 60px;
+}
+.block-title {
+    font-family: 'regdisplay', serif;
+    font-size: 36px;
+    color: #4a1e1b;
+    margin-bottom: 40px;
+    text-align: center;
+}
